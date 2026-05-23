@@ -250,3 +250,31 @@
 [2026-05-23T00:20:12.417+0000] {logging_mixin.py:188} INFO - [2026-05-23T00:20:12.417+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-05-23T00:20:12.441+0000] {logging_mixin.py:188} INFO - [2026-05-23T00:20:12.441+0000] {dag.py:3954} INFO - Setting next_dagrun for nyc_taxi_batch_pipeline to 2026-05-01 00:00:00+00:00, run_after=2026-06-01 00:00:00+00:00
 [2026-05-23T00:20:12.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/taxi_pipeline_dag.py took 0.105 seconds
+[2026-05-23T00:20:43.071+0000] {processor.py:161} INFO - Started process (PID=1005) to work on /opt/airflow/dags/taxi_pipeline_dag.py
+[2026-05-23T00:20:43.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/taxi_pipeline_dag.py for tasks to queue
+[2026-05-23T00:20:43.078+0000] {logging_mixin.py:188} INFO - [2026-05-23T00:20:43.076+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_pipeline_dag.py
+[2026-05-23T00:20:43.110+0000] {processor.py:840} INFO - DAG(s) 'nyc_taxi_batch_pipeline' retrieved from /opt/airflow/dags/taxi_pipeline_dag.py
+[2026-05-23T00:20:43.135+0000] {logging_mixin.py:188} INFO - [2026-05-23T00:20:43.135+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-23T00:20:43.152+0000] {logging_mixin.py:188} INFO - [2026-05-23T00:20:43.152+0000] {dag.py:3954} INFO - Setting next_dagrun for nyc_taxi_batch_pipeline to 2026-05-01 00:00:00+00:00, run_after=2026-06-01 00:00:00+00:00
+[2026-05-23T00:20:43.169+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/taxi_pipeline_dag.py took 0.117 seconds
+[2026-05-23T00:21:13.795+0000] {processor.py:161} INFO - Started process (PID=1064) to work on /opt/airflow/dags/taxi_pipeline_dag.py
+[2026-05-23T00:21:13.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/taxi_pipeline_dag.py for tasks to queue
+[2026-05-23T00:21:13.805+0000] {logging_mixin.py:188} INFO - [2026-05-23T00:21:13.805+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_pipeline_dag.py
+[2026-05-23T00:21:13.832+0000] {processor.py:840} INFO - DAG(s) 'nyc_taxi_batch_pipeline' retrieved from /opt/airflow/dags/taxi_pipeline_dag.py
+[2026-05-23T00:21:13.882+0000] {logging_mixin.py:188} INFO - [2026-05-23T00:21:13.882+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-23T00:21:13.920+0000] {logging_mixin.py:188} INFO - [2026-05-23T00:21:13.920+0000] {dag.py:3954} INFO - Setting next_dagrun for nyc_taxi_batch_pipeline to 2026-05-01 00:00:00+00:00, run_after=2026-06-01 00:00:00+00:00
+[2026-05-23T00:21:13.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/taxi_pipeline_dag.py took 0.172 seconds
+[2026-05-23T00:21:44.270+0000] {processor.py:161} INFO - Started process (PID=1123) to work on /opt/airflow/dags/taxi_pipeline_dag.py
+[2026-05-23T00:21:44.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/taxi_pipeline_dag.py for tasks to queue
+[2026-05-23T00:21:44.287+0000] {logging_mixin.py:188} INFO - [2026-05-23T00:21:44.286+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_pipeline_dag.py
+[2026-05-23T00:21:44.307+0000] {processor.py:840} INFO - DAG(s) 'nyc_taxi_batch_pipeline' retrieved from /opt/airflow/dags/taxi_pipeline_dag.py
+[2026-05-23T00:21:44.359+0000] {logging_mixin.py:188} INFO - [2026-05-23T00:21:44.358+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-23T00:21:44.417+0000] {logging_mixin.py:188} INFO - [2026-05-23T00:21:44.416+0000] {dag.py:3954} INFO - Setting next_dagrun for nyc_taxi_batch_pipeline to 2026-05-01 00:00:00+00:00, run_after=2026-06-01 00:00:00+00:00
+[2026-05-23T00:21:44.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/taxi_pipeline_dag.py took 0.191 seconds
+[2026-05-23T00:22:15.743+0000] {processor.py:161} INFO - Started process (PID=1182) to work on /opt/airflow/dags/taxi_pipeline_dag.py
+[2026-05-23T00:22:15.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/taxi_pipeline_dag.py for tasks to queue
+[2026-05-23T00:22:15.752+0000] {logging_mixin.py:188} INFO - [2026-05-23T00:22:15.751+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/taxi_pipeline_dag.py
+[2026-05-23T00:22:15.778+0000] {processor.py:840} INFO - DAG(s) 'nyc_taxi_batch_pipeline' retrieved from /opt/airflow/dags/taxi_pipeline_dag.py
+[2026-05-23T00:22:15.843+0000] {logging_mixin.py:188} INFO - [2026-05-23T00:22:15.842+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-23T00:22:15.874+0000] {logging_mixin.py:188} INFO - [2026-05-23T00:22:15.874+0000] {dag.py:3954} INFO - Setting next_dagrun for nyc_taxi_batch_pipeline to 2026-05-01 00:00:00+00:00, run_after=2026-06-01 00:00:00+00:00
+[2026-05-23T00:22:15.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/taxi_pipeline_dag.py took 0.189 seconds
